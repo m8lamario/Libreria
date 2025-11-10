@@ -18,4 +18,10 @@ public class Romanzo extends Libro {
     public String getGenere() {
         return genere;
     }
+
+    @Override
+    public String toString() {
+        // Include anche il genere come richiesto dalla Parte 3
+        return super.toString() + ", Genere: " + genere;
+    }
 }

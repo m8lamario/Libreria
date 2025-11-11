@@ -1,7 +1,6 @@
 package main.java.it.biblioteca.libri;
 
 public class Romanzo extends Libro {
-
     private final String genere;
 
     public Romanzo(String titolo, String autore, int numeroPagine, String genere) {

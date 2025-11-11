@@ -24,4 +24,12 @@ public class ManualeScolastico extends Libro {
     public int getAnno() {
         return anno;
     }
+
+    @Override
+    public String toString() {
+        return "ManualeScolastico{" +
+                "materia='" + materia + '\'' +
+                ", anno=" + anno +
+                '}';
+    }
 }

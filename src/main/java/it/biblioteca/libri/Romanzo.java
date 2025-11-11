@@ -1,8 +1,5 @@
 package main.java.it.biblioteca.libri;
 
-/**
- * Sottoclasse di Libro che rappresenta un romanzo.
- */
 public class Romanzo extends Libro {
 
     private final String genere;

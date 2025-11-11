@@ -1,8 +1,5 @@
 package main.java.it.biblioteca.libri;
 
-/**
- * Sottoclasse di Libro che rappresenta un manuale scolastico.
- */
 public class ManualeScolastico extends Libro {
 
     private final String materia;

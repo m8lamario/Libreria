@@ -1,21 +1,11 @@
 package main.java.it.biblioteca.libri;
 
-/**
- * Rappresenta un libro generico con titolo, autore e numero di pagine.
- */
 public class Libro {
 
     private final String titolo;
     private final String autore;
     private final int numeroPagine;
 
-    /**
-     * Costruttore completo.
-     *
-     * @param titolo        titolo del libro
-     * @param autore        autore del libro
-     * @param numeroPagine  numero di pagine (deve essere >= 1)
-     */
     public Libro(String titolo, String autore, int numeroPagine) {
         if (titolo == null || titolo.isBlank()) {
             throw new IllegalArgumentException("Il titolo non può essere nullo o vuoto.");

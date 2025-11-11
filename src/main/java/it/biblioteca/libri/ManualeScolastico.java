@@ -1,4 +1,4 @@
-package it.biblioteca.libri;
+package main.java.it.biblioteca.libri;
 
 /**
  * Sottoclasse di Libro che rappresenta un manuale scolastico.

@@ -1,4 +1,4 @@
-package it.biblioteca.libri;
+package main.java.it.biblioteca.libri;
 
 /**
  * Rappresenta un libro generico con titolo, autore e numero di pagine.

@@ -1,6 +1,6 @@
-package it.biblioteca.scaffalatura;
+package main.java.it.biblioteca.scaffalatura;
 
-import it.biblioteca.libri.Libro;
+import main.java.it.biblioteca.libri.Libro;
 
 import java.util.ArrayList;
 import java.util.Collections;

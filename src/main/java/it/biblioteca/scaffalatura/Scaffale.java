@@ -1,4 +1,4 @@
-package it.biblioteca.scaffalatura;
+package main.java.it.biblioteca.scaffalatura;
 
 import java.util.ArrayList;
 import java.util.Collections;
